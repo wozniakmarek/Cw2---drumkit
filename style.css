@@ -1,0 +1,83 @@
+body{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-image: url("skate-music-concert-noise-jpg-10189227-dark.png");
+}
+.container{
+    width:80%;
+    height:auto;
+    margin:100px auto 0 auto;
+    text-align:center;
+
+}
+.container p{
+    font-size: 20px;
+}
+.keyboard{
+    user-select:none;
+}
+.key {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+    display: inline-block;
+    box-shadow:black 10px 10px;
+    font-size: 40px;
+}
+.key-pressed{
+    box-shadow:none;
+}
+.recordHolder{
+    padding: 10px;
+    margin: 10px;
+    width:100px;
+    height:100px;
+    display:inline-block;
+}
+.recordHolder button{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: pink;
+    font-size: 20px;
+
+}
+#a{
+    border: 2px solid #ff0000;
+    background-color: #ff0000;
+}
+#s {
+    border: 2px solid #ff6a00;
+    background-color: #ff6a00;
+}
+#d {
+    border: 2px solid #ffd800;
+    background-color: #ffd800;
+}
+#f {
+    border: 2px solid #b6ff00;
+    background-color: #b6ff00;
+}
+#g {
+    border: 2px solid #4cff00;
+    background-color: #4cff00;
+}
+#h {
+    border: 2px solid #00ff21;
+    background-color: #00ff21;
+}
+#j {
+    border: 2px solid #00ff90;
+    background-color: #00ff90;
+}
+#k {
+    border: 2px solid #0094ff;
+    background-color: #0094ff;
+}
+#l {
+    border: 2px solid #0026ff;
+    background-color: #0026ff;
+}
