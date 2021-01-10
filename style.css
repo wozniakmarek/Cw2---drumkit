@@ -7,6 +7,7 @@ body{
     height:auto;
     margin:100px auto 0 auto;
     text-align:center;
+    font-size: 30px;
 
 }
 .container p{
@@ -32,16 +33,16 @@ body{
 .recordHolder{
     padding: 10px;
     margin: 10px;
-    width:100px;
-    height:100px;
+    width:200px;
+    height:auto;
     display:inline-block;
 }
 .recordHolder button{
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin-top: 10px;
     border: none;
     border-radius: 6px;
-    background-color: pink;
+    background-color: gray;
     font-size: 20px;
 
 }
@@ -49,35 +50,35 @@ body{
     border: 2px solid #ff0000;
     background-color: #ff0000;
 }
-#s {
+#b {
     border: 2px solid #ff6a00;
     background-color: #ff6a00;
 }
-#d {
+#c {
     border: 2px solid #ffd800;
     background-color: #ffd800;
 }
-#f {
+#d {
     border: 2px solid #b6ff00;
     background-color: #b6ff00;
 }
-#g {
+#e {
     border: 2px solid #4cff00;
     background-color: #4cff00;
 }
-#h {
+#f {
     border: 2px solid #00ff21;
     background-color: #00ff21;
 }
-#j {
+#g {
     border: 2px solid #00ff90;
     background-color: #00ff90;
 }
-#k {
+#h {
     border: 2px solid #0094ff;
     background-color: #0094ff;
 }
-#l {
+#i {
     border: 2px solid #0026ff;
     background-color: #0026ff;
 }
