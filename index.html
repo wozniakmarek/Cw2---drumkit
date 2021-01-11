@@ -2,19 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Drumkit</title>
     <script src="main.js" type="text/javascript"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <script>loadAudio();</script>
     <div class="container">
         <div class="keyboard">
             <div class="key" id="a">a
               <p>BOOM</p>
             </div>
             <div class="key" id="b">b
-            <p>CLAP</p>
+              <p>CLAP</p>
             </div>
             <div class="key" id="c">c
               <p>HIHAT</p>
@@ -23,19 +25,19 @@
               <p>KICK</p>
             </div>
             <div class="key" id="e">e
-              <p>MY-MAN</p>
-            </div>
-            <div class="key" id="f">f
               <p>OPENHAT</p>
             </div>
-            <div class="key" id="g">g
-              <p>PICKLE</p>
-            </div>
-            <div class="key" id="h">h
+            <div class="key" id="f">f
               <p>RIDE</p>
             </div>
+            <div class="key" id="g">g
+              <p>SNARE</p>
+            </div>
+            <div class="key" id="h">h
+              <p>TINK</p>
+            </div>
             <div class="key" id="i">i
-              <p>SNAP</p>
+              <p>TOM</p>
             </div>
         </div>
         <div class="records">
@@ -56,11 +58,10 @@
             </div>
             <div class="recordHolder">
                 <div id="status4">No record</div>
-                <button id="rButton4" onclick="startRecord(4)">Record track 4</button>
+                <button id="rButton3" onclick="startRecord(4)">Record track 4</button>
                 <button id="playButton4" onclick="playRecord(4)">Play track 4</button>
             </div>
         </div>
     </div>
-    <script>loadAudio();</script>
 </body>
 </html>

@@ -36,6 +36,7 @@ body{
     width:200px;
     height:auto;
     display:inline-block;
+    color: white;
 }
 .recordHolder button{
     padding: 20px;
