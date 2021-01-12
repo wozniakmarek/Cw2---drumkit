@@ -32,10 +32,6 @@ function keyUp(ev) {
     }
 }
 
-
-
-
-
 function startRecord(numer_sciezki) {
     if (!record[numer_sciezki]) {
         record[numer_sciezki] = true;
